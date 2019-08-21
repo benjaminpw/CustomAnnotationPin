@@ -139,7 +139,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="mapView" destination="Ca9-E0-iTe" id="qyI-a4-M5N"/>
+                        <outlet property="addressLabel" destination="e9R-yH-enO" id="Kmk-Ro-ciT"/>
+                        <outlet property="mapView" destination="Ca9-E0-iTe" id="wTX-Lq-mYg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
