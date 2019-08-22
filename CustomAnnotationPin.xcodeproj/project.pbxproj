@@ -10,9 +10,10 @@
 		4A6E56A1230BE86A0016F438 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6E56A0230BE86A0016F438 /* AppDelegate.swift */; };
 		4A6E56A3230BE86A0016F438 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6E56A2230BE86A0016F438 /* ViewController.swift */; };
 		4A6E56A6230BE86A0016F438 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A6E56A4230BE86A0016F438 /* Main.storyboard */; };
-		4A6E56A9230BE86A0016F438 /* CustomAnnotationPin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A6E56A7230BE86A0016F438 /* CustomAnnotationPin.xcdatamodeld */; };
 		4A6E56AB230BE86B0016F438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A6E56AA230BE86B0016F438 /* Assets.xcassets */; };
 		4A6E56AE230BE86B0016F438 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A6E56AC230BE86B0016F438 /* LaunchScreen.storyboard */; };
+		4A6E5704230E8F9C0016F438 /* roundShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6E5703230E8F9C0016F438 /* roundShape.swift */; };
+		4A6E5706230E92810016F438 /* roundMapCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6E5705230E92810016F438 /* roundMapCorner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +21,11 @@
 		4A6E56A0230BE86A0016F438 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A6E56A2230BE86A0016F438 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4A6E56A5230BE86A0016F438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4A6E56A8230BE86A0016F438 /* CustomAnnotationPin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CustomAnnotationPin.xcdatamodel; sourceTree = "<group>"; };
 		4A6E56AA230BE86B0016F438 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A6E56AD230BE86B0016F438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A6E56AF230BE86B0016F438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A6E5703230E8F9C0016F438 /* roundShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundShape.swift; sourceTree = "<group>"; };
+		4A6E5705230E92810016F438 /* roundMapCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundMapCorner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +61,11 @@
 				4A6E56A0230BE86A0016F438 /* AppDelegate.swift */,
 				4A6E56A2230BE86A0016F438 /* ViewController.swift */,
 				4A6E56A4230BE86A0016F438 /* Main.storyboard */,
+				4A6E5703230E8F9C0016F438 /* roundShape.swift */,
+				4A6E5705230E92810016F438 /* roundMapCorner.swift */,
 				4A6E56AA230BE86B0016F438 /* Assets.xcassets */,
 				4A6E56AC230BE86B0016F438 /* LaunchScreen.storyboard */,
 				4A6E56AF230BE86B0016F438 /* Info.plist */,
-				4A6E56A7230BE86A0016F438 /* CustomAnnotationPin.xcdatamodeld */,
 			);
 			path = CustomAnnotationPin;
 			sourceTree = "<group>";
@@ -139,8 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A6E56A3230BE86A0016F438 /* ViewController.swift in Sources */,
+				4A6E5704230E8F9C0016F438 /* roundShape.swift in Sources */,
+				4A6E5706230E92810016F438 /* roundMapCorner.swift in Sources */,
 				4A6E56A1230BE86A0016F438 /* AppDelegate.swift in Sources */,
-				4A6E56A9230BE86A0016F438 /* CustomAnnotationPin.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,19 +344,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		4A6E56A7230BE86A0016F438 /* CustomAnnotationPin.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				4A6E56A8230BE86A0016F438 /* CustomAnnotationPin.xcdatamodel */,
-			);
-			currentVersion = 4A6E56A8230BE86A0016F438 /* CustomAnnotationPin.xcdatamodel */;
-			path = CustomAnnotationPin.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 4A6E5695230BE86A0016F438 /* Project object */;
 }
