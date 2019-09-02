@@ -14,6 +14,7 @@
 		4A6E56AE230BE86B0016F438 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A6E56AC230BE86B0016F438 /* LaunchScreen.storyboard */; };
 		4A6E5704230E8F9C0016F438 /* roundShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6E5703230E8F9C0016F438 /* roundShape.swift */; };
 		4A6E5706230E92810016F438 /* roundMapCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6E5705230E92810016F438 /* roundMapCorner.swift */; };
+		4AA9896A231D0214003C9C16 /* MapSocDesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA98969231D0214003C9C16 /* MapSocDesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4A6E56AF230BE86B0016F438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A6E5703230E8F9C0016F438 /* roundShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundShape.swift; sourceTree = "<group>"; };
 		4A6E5705230E92810016F438 /* roundMapCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundMapCorner.swift; sourceTree = "<group>"; };
+		4AA98969231D0214003C9C16 /* MapSocDesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSocDesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				4A6E56A0230BE86A0016F438 /* AppDelegate.swift */,
 				4A6E56A2230BE86A0016F438 /* ViewController.swift */,
+				4AA98969231D0214003C9C16 /* MapSocDesViewController.swift */,
 				4A6E56A4230BE86A0016F438 /* Main.storyboard */,
 				4A6E5703230E8F9C0016F438 /* roundShape.swift */,
 				4A6E5705230E92810016F438 /* roundMapCorner.swift */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A6E56A3230BE86A0016F438 /* ViewController.swift in Sources */,
+				4AA9896A231D0214003C9C16 /* MapSocDesViewController.swift in Sources */,
 				4A6E5704230E8F9C0016F438 /* roundShape.swift in Sources */,
 				4A6E5706230E92810016F438 /* roundMapCorner.swift in Sources */,
 				4A6E56A1230BE86A0016F438 /* AppDelegate.swift in Sources */,
